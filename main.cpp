@@ -92,7 +92,7 @@ int main()
     std::cout << "No\n";
   std::cout << "Verificación (exp. binaria): " << verifySign.get_str(16) << "\n\n";
 
-  /*Firma con gmp*/
+  /*Verifica con gmp*/
   GMPTimeInitial = clock();
   mpz_t mpzToGMPVerify;
   mpz_init(mpzToGMPVerify);
