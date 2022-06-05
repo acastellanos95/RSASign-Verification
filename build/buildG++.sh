@@ -1,0 +1,1 @@
+g++ -o RSA ../main.cpp -lgmp -lgmpxx
